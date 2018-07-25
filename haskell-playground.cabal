@@ -15,7 +15,8 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Data.String.Strip, Data.Geometry.Cube, Data.Geometry.Cuboid, Data.Geometry.Shapes, Data.Geometry.Sphere, Data.IO.Bytestrings, Data.Misc.Monads
+--  exposed-modules:     Data.String.Strip, Data.Geometry.Cube, Data.Geometry.Cuboid, Data.Geometry.Shapes, Data.Geometry.Sphere, Data.IO.Bytestrings, Data.Misc.Monads
+  exposed-modules:     Analysis.WordsCount
   build-depends:       base >= 4.7 && < 5
                      , random
                      , bytestring
